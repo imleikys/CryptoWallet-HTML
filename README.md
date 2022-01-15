@@ -1,2 +1,2 @@
 # CryptoWallet-HTML
-CryptoWallet template
+DESKTOP-ONLY

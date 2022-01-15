@@ -1,0 +1,90 @@
+.earn-free {
+  position: relative;
+  background: #222222;
+  border-radius: 30px;
+  padding: 42px 40px 60px 34px;
+
+  background-image: url('/img/earn-card/bg-cards.svg');
+  background-repeat: no-repeat;
+  background-size: initial;
+  background-position: right bottom;
+
+  z-index: 9;
+
+  &__title {
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 11px;
+
+    b {
+      font-weight: bold;
+    }
+
+    &-img {
+      display: inline-block;
+      background-image: url('/img/earn-card/free.svg');
+      width: 97.3px;
+      height: 74.73px;
+      vertical-align: middle;
+    }
+  }
+
+  &__text {
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 35px;
+  }
+
+  &__btn {
+    display: inline-block;
+    height: 46px;
+    line-height: 46px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+    background-color: #BCDFFF;
+    border-radius: 23px;
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+
+  &-wrapper {
+    position: relative;
+    width: 410px;
+    height: 363px;
+    margin-left: 32px;
+
+    &::before {
+      position: absolute;
+      content: "";
+  
+      width: 375px;
+      height: 48px;
+      bottom: -15px;
+      left: 50%;
+      transform: translateX(-50%);
+  
+      background-color: #dfdfe3;
+      border-radius: 24px;
+      z-index: 2;
+    }
+  
+    &::after {
+      position: absolute;
+      content: "";
+  
+      width: 295px;
+      height: 48px;
+      bottom: -28px;
+      left: 50%;
+      transform: translateX(-50%);
+  
+      background: #F0F0F1;
+      border-radius: 24px;
+      z-index: 1;
+    }
+  }
+}

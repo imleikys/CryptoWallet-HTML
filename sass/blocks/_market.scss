@@ -1,0 +1,14 @@
+.market {
+  width: 720px;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+
+    &-options > * + * {
+      margin-left: 16px;
+    }
+  }
+}

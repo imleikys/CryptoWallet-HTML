@@ -1,0 +1,61 @@
+.dashboard {
+  position: fixed;
+  margin-top: 40px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  overflow: hidden;
+  background: #202020;
+  border-radius: 50px;
+  width: 1440px;
+  height: 926px;
+
+  display: flex;
+  flex-direction: row;
+
+  &__nav {
+    width: 138px;
+    padding-top: 40px;
+    padding-bottom: 75px;
+    flex-shrink: 0;
+  }
+
+  &__content {
+    background-color: #fff;
+    border-radius: 45px;
+    flex-grow: 1;
+
+    margin: 17px 19px 17px 0px;
+    padding: 26px 56px 54px 69px;
+  }
+
+  &__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 28px;
+
+    &-icons {
+      display: flex;
+
+      & > * + * {
+        margin-left: 16px;
+      }
+    }
+  }
+
+  &__cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 51px;
+
+    & > * + * {
+      margin-left: 30px;
+    }
+  }
+
+  &__market {
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,67 @@
+.asset-card {
+  position: relative;
+  width: 194px;
+  min-height: 244px;
+  background: #E5DEF0;
+  border-radius: 24px;
+
+  padding: 30px 27px 26px 24px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__value {
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.02em;
+    color: #000000;
+  }
+
+  &__fiat {
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #000000;
+  }
+
+  &__settings {
+    position: absolute;
+    right: 12px;
+    top: 37px;
+
+    height: 20px;
+    width: 14px;
+  }
+
+  &__icon {
+    width: 56px;
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__income {
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    color: #896AB9;
+  }
+
+  &__footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &--ltc {
+    background-color: #D6EDDA;
+  }
+
+  &--eth {
+    background-color: #F6F0D8;
+  }
+}

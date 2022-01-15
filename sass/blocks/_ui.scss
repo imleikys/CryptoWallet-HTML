@@ -1,0 +1,39 @@
+button {
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-btn {
+  position: relative;
+
+  border: 2px solid #EFF2F4;
+  box-sizing: border-box;
+  border-radius: 22px;
+
+  padding: 10px 36px 10px 18px;
+
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #020B2A;
+
+  &:hover {
+    background-color: #edf2f5;
+  }
+
+  &::after {
+    position: absolute;
+    display: block;
+    content: "";
+
+    background-image: url("../../img/top-icons/arrow-down.svg");
+    right: 17px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 12px;
+    height: 7px;
+  }
+}
+

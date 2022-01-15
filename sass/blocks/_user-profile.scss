@@ -1,0 +1,42 @@
+.user-profile {
+  height: 54px;
+  background-color: #F2F5FA;;
+  border-radius: 27px;
+
+  display: flex;
+
+  transition: background-color 0.2s ease-in;
+  &:hover {
+    background-color: #dfe6f0;
+  }
+
+  &__avatar {
+    margin-top: -16px;
+    margin-right: 6px;
+    margin-left: 4px;
+  }
+
+  &__nav-btn {
+    position: relative;
+    padding-right: 41px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 0.02em;
+    color: #0B1432;
+
+    &::after {
+      display: block;
+      position: absolute;
+      right: 21px;
+      top: 50%;
+      transform:  translateY(-50%);
+
+      content: "";
+      background-image: url('../../img/top-icons/arrow-down.svg');
+      width: 12px;
+      height: 7px;
+    }
+  }
+}

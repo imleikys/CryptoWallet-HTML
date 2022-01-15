@@ -1,0 +1,9 @@
+.portfolio { 
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+
+  &__header {
+    margin-bottom: 24px;
+  }
+}

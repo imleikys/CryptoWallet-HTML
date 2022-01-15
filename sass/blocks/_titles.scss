@@ -1,0 +1,24 @@
+$darkcolor: #000000;
+
+.title-1 {
+  font-weight: bold;
+  font-size: 35px;
+  letter-spacing: 0.02em;
+  color: $darkcolor;
+}
+
+.title-2 {
+  font-weight: 600;
+  font-size: 27.5px;
+  letter-spacing: 0.02em;
+  color: $darkcolor;
+  line-height: 1.5;
+}
+
+.title-3 {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 37px;
+  letter-spacing: 0.02em;
+  color: $darkcolor;
+}

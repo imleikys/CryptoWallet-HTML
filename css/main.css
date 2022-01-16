@@ -709,7 +709,7 @@ button {
   background: #222222;
   border-radius: 30px;
   padding: 42px 40px 60px 34px;
-  background-image: url("../../img/earn-card/bg-cards.svg");
+  background-image: url("./../../img/earn-card/bg-cards.svg");
   background-repeat: no-repeat;
   background-size: initial;
   background-position: right bottom;
@@ -730,7 +730,7 @@ button {
 
 .earn-free__title-img {
   display: inline-block;
-  background-image: url("../../img/earn-card/free.svg");
+  background-image: url("./../../img/earn-card/free.svg");
   width: 97.3px;
   height: 74.73px;
   vertical-align: middle;
